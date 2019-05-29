@@ -9,3 +9,6 @@ ans-use git diff to see the changes made in working directory and stagging area 
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 ans-branches is very powerful tool, helps to experiment the code we have,like the asteroid game we are working on,since the asteroid game was hard to play to we try to make the another version of game (easy-mode) still we can access the difficult version of game too which was stored at master branch 
+
+How do the diagrams help you visualize the branch structure?
+ans-Diagrams helps us to visualize the branch structure in more intuitive way.In order to diagram the rough structure we used the command "$ git --oneline branchname_1 branchname_2.....branchname_n" 
