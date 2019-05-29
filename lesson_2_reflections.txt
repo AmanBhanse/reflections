@@ -3,3 +3,6 @@ ans-.git directory is created containing meta data of repository
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 ans-staging area acts like intermidiate between working directory and respo.The working directory is converted into git respo but git provide more control to how we add commit.So instead of adding changes directly to respo git let up first add to staging area and if we are sure then from stagging area we can add it to the respo. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+ans-use git diff to see the changes made in working directory and stagging area and we can see the file is modified or not in working directory using "git stauts"
