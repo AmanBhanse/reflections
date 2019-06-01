@@ -16,3 +16,6 @@ ans-Diagrams helps us to visualize the branch structure in more intuitive way.In
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 ans-the result of merging two file that we get the desired result,now our game is bug free and has coin in it.
 we represent the diagram the way udacity do is that after merging the files new commit will be generate on master branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+ans-automatic merging dose the job easy when there is no conflict the automatic merging works fine, but when two or more editor try to edit the one common section of file then the conflicts happens.Git cant able to decide which version of editor to keep. So we need to mannaully resolve the conflict by deciding which version of edited section from different editor to keep.
