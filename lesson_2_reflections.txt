@@ -12,3 +12,7 @@ ans-branches is very powerful tool, helps to experiment the code we have,like th
 
 How do the diagrams help you visualize the branch structure?
 ans-Diagrams helps us to visualize the branch structure in more intuitive way.In order to diagram the rough structure we used the command "$ git --oneline branchname_1 branchname_2.....branchname_n" 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+ans-the result of merging two file that we get the desired result,now our game is bug free and has coin in it.
+we represent the diagram the way udacity do is that after merging the files new commit will be generate on master branch.
