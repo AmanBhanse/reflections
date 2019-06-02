@@ -4,3 +4,10 @@ ans-We use the remote respository to collaborate with different contributers aro
 
 2.Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 ans-becoz the local respository and remote needs manual syncing.
+
+3.Describe the differences between forks, clones, and branches. When would you use one instead of another?
+ans-clone-> are used when u want copy of repo from githubserver or to another location on ur computer.
+----
+branch-> are use in repo only to work parallelly on different features of project or experimental features then we can merge them too.
+---
+forks->They are used to make the copy of someone other's remote to our github remote at githubservers
