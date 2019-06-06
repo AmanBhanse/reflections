@@ -11,3 +11,6 @@ ans-clone-> are used when u want copy of repo from githubserver or to another lo
 branch-> are use in repo only to work parallelly on different features of project or experimental features then we can merge them too.
 ---
 forks->They are used to make the copy of someone other's remote to our github remote at githubservers
+
+4.What is the benefit of having a copy of the last known state of the remote stored locally?
+ans-even if someone do the changes in github branch then we can still access our local branch and person's branch who updated it on github by running $git fetch origin(name of remote), this command will create the diverged branch from last known state of remote stored locally. we can even merge the twp branches by $ git merge master origin/master
